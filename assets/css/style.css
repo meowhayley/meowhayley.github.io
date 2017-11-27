@@ -1,0 +1,530 @@
+/* 
+Dark green (#0E4700)
+Dark brown (#352208)
+Light blue (#BAFCF3)
+Light green (#71B340)
+Orange-red (#ED5300)
+*/
+
+body, html{
+	margin:0px;
+	height:100%;
+}
+
+body{
+	background-color:#BAFCF3;
+}
+
+#container {
+	width:100%;
+	margin:0 auto;
+}
+
+/* Navbar */
+#navbar {
+  position:fixed;
+  margin:0 auto;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  z-index: 10;
+	background-color:#BAFCF3;
+	height:80px;
+	font-family:"Fredericka the Great", cursive;
+}
+
+#navbar-item-join, #navbar-item-who, #navbar-item-what {
+	display:inline-block;
+	float:right;
+	position:relative;
+	padding:10px;
+	margin:10px;
+	top:10px;
+	font-size:30px;
+	color:#0E4700;
+
+}
+
+#navbar-item-logo, #navbar-item-name {
+	display:inline-block;
+	float:left;
+}
+
+#navbar-item-logo {
+	margin: 0px 0px 0px 0px;
+	position:relative;
+}
+
+#navbar-item-name {
+	position:relative;
+	right:35px;
+	top:-21px;
+	color: #0A3200;
+	font-size:30px;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+.button {
+	padding:2px;
+}
+
+#navbar a:link {
+	text-decoration:none;
+	color: #0E4700;
+	transition:0.1s;
+}
+#navbar a:hover {
+	text-decoration:none;
+	cursor:pointer;
+	transition:0.1s;
+}
+#navbar a:visited{
+	text-decoration:none;
+	color:#0E4700;
+}
+
+#navbar a:active{
+	text-decoration:none;
+	color:#71B340;
+
+}
+
+
+/* View 1 */
+
+#content { 
+	width:100%;
+}
+
+#sun {
+	position:absolute;
+	width:400px;
+	top:100px;
+}
+
+#bee {
+	position:absolute;
+	top:200px;
+	left:500px;
+}
+
+.bee-caption {
+	position:absolute;
+	width:100px;
+	top:160px;
+	left:620px;
+	font-family:"Raleway", sans-serif;
+	font-size:15px;
+	color:#0E4700;
+	text-align:center;
+	background-color:#71B340;
+	border-radius:5px;
+	padding:10px;
+	font-weight:700;
+	opacity:0.8;
+	display:none;
+}
+
+#mission-statement {
+	position:absolute;
+	width:250px;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	color: #0E4700;
+	top:100px;
+	left:60px;
+}
+
+#apple-tree {
+	margin:0 auto;
+	position:relative;
+	top:250px;
+	right:-250px;
+}
+
+#apple-1 {
+	z-index:5;
+	position:absolute;
+	width:150px;
+	top:500px;
+	left:1000px;
+
+}
+#apple-2 {
+	z-index:5;
+	position:absolute;
+	width:150px;
+	top:400px;
+	left:400px;
+}
+
+#apple-3 {
+	z-index:5;
+	position:absolute;
+	width:150px;
+	top:800px;
+	left:300px;
+}
+
+#apple-4 {
+	z-index:5;
+	width:150px;
+	position:absolute;
+	top:400px;
+	left:800px;
+}
+#apple-5 {
+	z-index:5;
+	position:absolute;
+	width:150px;
+	top:780px;
+	left:850px;
+}
+
+.haydav {
+	position:relative;
+	width:300px;
+	top:-400px;
+	left:1100px;
+}
+
+.haycov {
+	position:relative;
+	width:250px;
+	top:-850px;
+	left:120px;
+}
+
+.tess {
+	position:relative;
+	width:450px;
+	top:-520px;
+	left:130px;
+}
+
+.grace {
+	position:relative;
+	width:500px;
+	top:-1500px;
+	left:800px;
+}
+.tina {
+	position:relative;
+	width:400px;
+	top:-1000px;
+	left:900px;
+}
+
+/*View 2*/
+#background {
+	position:relative;
+	height:100%;
+}
+
+#tulip {
+	position:absolute;
+	left:700px;
+	top:350px;
+}
+
+#roses {
+	position:absolute;
+	top:170px;
+	left:30px;
+}
+
+#purple {
+	position:absolute;
+	top:450px;
+	left:450px;
+}
+
+#sunflower {
+	position:absolute;
+	left:900px;
+	top:100px;
+}
+
+#blurb {
+	position:relative;
+	z-index:6;
+	font-family:"Fredericka the Great", cursive;
+	font-size:30px;
+	color:#0E4700;
+	text-align:center;
+}
+
+.open-hours-title {
+	position:relative;
+	width:200px;
+	left:820px;
+	bottom:470px;
+}
+
+.workshops-title {
+	position:relative;
+	width:100px;
+	left:800px;
+	top:550px;
+}
+
+.meetings-title {
+	position:relative;
+	width:100px;
+	left:380px;
+	top:400px;
+}
+
+.decals-title {
+	position:relative;
+	width:100px;
+	left:190px;
+	bottom:45px;
+}
+
+#info-box{
+	font-family:"Raleway", sans-serif;
+	font-size:15px;
+	color:#0E4700;
+	text-align:center;
+	background-color:#71B340;
+	opacity:0;
+	border-radius:5px;
+	padding:10px;
+	font-weight:700;
+}
+
+.open-hours-info {
+	width:500px;
+	position:relative;
+	left:300px;
+	bottom:570px;
+}
+
+.workshops-info {
+	width:300px;
+	position:relative;
+	left:850px;
+	top:600px;
+}
+
+.meetings-info {
+	width:300px;
+	position:relative;
+	left:360px;
+	top:450px;
+}
+
+.decals-info {
+	width:340px;
+	position:relative;
+	left:330px;
+	bottom:100px;
+}
+
+
+/*View 3*/
+
+#title {
+	position:relative;
+	z-index:6;
+	font-family:"Fredericka the Great", cursive;
+	font-size:30px;
+	color:#71B340;
+	text-align:center;
+}
+
+#tomato-plant {
+	position:absolute;
+	top:80px;
+	left:200px;
+	z-index:1;
+}
+
+#take-tomato {
+	position:relative;
+	top:350px;
+	left:400px;
+	width:250px;
+}
+
+.take-decal-title {
+	position:relative;
+	width:200px;
+	top:250px;
+	left:420px;
+}
+
+.take-decal-info {
+	position:relative;
+	width:200px;
+	top:-50px;
+	left:300px;
+}
+
+#teach-tomato {
+	position:relative;
+	top:180px;
+	left:150px;
+	width:250px;
+}
+
+.teach-decal-title {
+	position:relative;
+	width:200px;
+	top:70px;
+	left:160px;
+}
+
+.teach-decal-info {
+	position:relative;
+	width:90px;
+	top:-200px;
+	left:70px;
+}
+
+#volunteer-tomato {
+	position:relative;
+	top:-230px;
+	left:770px;
+	width:250px;
+}
+
+.volunteer-title {
+	position:relative;
+	width:250px;
+	top:-355px;
+	left:760px;
+}
+
+.volunteer-info {
+	position:relative;
+	width:100px;
+	top:-550px;
+	left:1020px;
+}
+
+#workshop-tomato {
+	position:relative;
+	width:250px;
+	top:-400px;
+	left:260px;
+}
+
+.workshop-title {
+	position:relative;
+	width:200px;
+	top:-515px;
+	left:280px;
+}
+
+.workshop-info {
+	position:relative;
+	width:100px;
+	top:-640px;
+	left:530px;
+}
+
+#meeting-tomato {
+	position:relative;
+	width:250px;
+	top:-700px;
+	left:850px;
+}
+
+.meeting-title {
+	position:relative;
+	width:200px;
+	top:-820px;
+	left:870px;
+}
+
+.meeting-info {
+	position:relative;
+	width:250px;
+	top:-890px;
+	left:560px;
+}
+
+
+
+
+
+/* Footer */
+#footer a:link {
+	color:#71B340;
+}
+#footer a:visited {
+	text-decoration:none;
+	color:#71B340;
+}
+#footer a:hover {
+	text-decoration:none;
+	cursor:pointer;
+}
+#footer a:active {
+	text-decoration:none;
+	color:#ED5300;
+}
+
+#footer {
+	position:relative;
+  	bottom: 0px;
+  	left: 0px;
+  	right: 0px;
+  	width: 100%;
+  	padding-top: 10px;
+  	z-index: 10;
+  	background-color:#352208;
+  	box-shadow: 0 0 5px 5px #352208;
+  	font-family:"Raleway", sans-serif;
+  	font-weight:300;
+	text-decoration:none;
+	color:#71B340;
+	height:150px;
+}
+
+#footer-item-name {
+	font-family: "Fredericka the Great", cursive;
+	font-size:25px;
+	position:relative;
+	margin-left:10px;
+	color:#71B340;
+	right:-15px;
+}
+#footer-item-location {
+	position:relative;
+	right:-15px;
+	top:-10px;
+}
+
+#footer-item-fb, #footer-item-insta, #footer-item-email {
+	display:inline-block;
+	float:left;
+	margin:3px;
+}
+
+#footer-item-links {
+	position:relative;
+	top:-15px;
+	right:-50px;
+}
+
+#footer-item-mailchimp {
+	display:inline-block;
+	float:right;
+	position:relative;
+	bottom:122px;
+	left:-20px;
+	width:300px;
+	font-size:20px;
+	border-left:solid;
+	padding-left:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
